@@ -1,0 +1,54 @@
+{
+  "matterKey": "HE 74/2023 vp",
+  "license": "CC BY 4.0",
+  "producer": "Eduskunta",
+  "modified": false,
+  "samples": [
+    {
+      "file": "person.json",
+      "kind": "person",
+      "url": "https://api.eduskunta.fi/api/v1/kansanedustajat/1392",
+      "method": "GET",
+      "retrievedAt": "2026-10-02T15:38:30.278Z",
+      "sha256": "dbd5083b9f996d08dc98954214af9cf9d4edf0c5f35d6c4a838fdf1a19e81500",
+      "contentType": "application/json"
+    },
+    {
+      "file": "matter.json",
+      "kind": "matter",
+      "url": "https://api.eduskunta.fi/api/v1/valtiopaivaasiat/HE%2074%2F2023%20vp",
+      "method": "GET",
+      "retrievedAt": "2026-10-02T15:38:30.469Z",
+      "sha256": "4037e432224d30e0b945e01f9a07a0e93d354ca1cd4d0a186419bd6138c30caf",
+      "contentType": "application/json"
+    },
+    {
+      "file": "document.json",
+      "kind": "document",
+      "url": "https://api.eduskunta.fi/api/v1/asiakirjat/edktunnus/EDK-2023-AK-29738",
+      "method": "GET",
+      "retrievedAt": "2026-10-02T15:38:30.623Z",
+      "sha256": "3399bb7befc8c01a1d1592aa8986730aa2fd19ba87ce43450b4d37e5343a08ef",
+      "contentType": "application/json"
+    },
+    {
+      "file": "vote.json",
+      "kind": "vote",
+      "url": "https://api.eduskunta.fi/api/v1/taysistunnot/aanestykset/2023-71-7",
+      "method": "GET",
+      "retrievedAt": "2026-10-02T15:38:30.819Z",
+      "sha256": "6d0352cadd7509658455858faa4bf7646191a347fc5919b6b51bcc43e7711f46",
+      "contentType": "application/json"
+    },
+    {
+      "file": "speeches.json",
+      "kind": "speech-search",
+      "url": "https://api.eduskunta.fi/api/v1/search",
+      "method": "POST",
+      "requestBody": "{\"category\":\"puheenvuoro\",\"query\":\"asumistuki\",\"maxResults\":2,\"startFromIndex\":0}",
+      "retrievedAt": "2026-10-02T15:38:33.069Z",
+      "sha256": "fa628015486c80d4b83f700d1faceda0a08354ac30f682dd46061cdcc581ef94",
+      "contentType": "application/json"
+    }
+  ]
+}

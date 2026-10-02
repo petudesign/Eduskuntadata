@@ -1,0 +1,27 @@
+{
+  "name": "eduskuntadata",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/client.mjs && node --check src/normalize.mjs && node --check src/store.mjs && node --check src/cli.mjs && node --check src/server.mjs",
+    "sync": "node src/cli.mjs sync",
+    "demo": "node src/cli.mjs demo",
+    "search": "node src/cli.mjs search",
+    "trace": "node src/cli.mjs trace",
+    "start": "node src/server.mjs",
+    "dev": "node scripts/dev.mjs",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.2"
+  }
+}
